@@ -1,0 +1,20 @@
+# Maven specific files
+target/
+*.iml
+*.log
+
+# Logs and reports
+log/
+test-output/
+allure-report/
+allure-results/
+surefire-reports/
+
+# Eclipse specific files
+.classpath
+.project
+.settings/
+# Build results
+*.class
+# Docker files (if any generated during runs)
+docker-compose.override.yml

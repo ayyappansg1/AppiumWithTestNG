@@ -1,0 +1,15 @@
+{
+	"testData": "Testsuite",
+	"beforeLoginHomePage": {
+		"firstSlide": "Welcome to Atlas",
+		"secondSlide": "Learn and Innovate",
+		"thirdSlide": "Diverse Culture"
+	},
+	"homePage":{
+		"loginPage":"Welcome!",
+		"userDetail":"chrisg",
+		"homePageSuccessMessage":"Hi",
+		"errorMessageForLogin":"The email or password you entered is invalid."
+	}
+	
+}

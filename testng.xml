@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="false" thread-count="3">
+	<listeners>
+		<listener class-name="listener.Listener"></listener>
+		<listener class-name="utils.ExtentReportListener"></listener>
+	</listeners>
+	<test name="Suite running">
+		<parameter name="browser" value="android"></parameter>
+		<parameter name="username" value="admin"></parameter>
+		<parameter name="password" value="admin"></parameter>
+		<groups>
+			<run>
+				<include name="smoke"></include>
+			</run>
+		</groups>
+		<classes>
+			<class name="testCases.FirstTest"></class>
+		</classes>
+	</test>
+</suite> <!--
+Suite -->
